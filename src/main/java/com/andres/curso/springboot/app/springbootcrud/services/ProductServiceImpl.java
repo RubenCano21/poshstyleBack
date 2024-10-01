@@ -48,6 +48,7 @@ public class ProductServiceImpl implements ProductService {
             productDb.setPrice(product.getPrice());
             productDb.setCategory(product.getCategory());
             productDb.setSize(product.getSize());
+            productDb.setQuantity(product.getQuantity());
 
 
             return Optional.of(repository.save(productDb));

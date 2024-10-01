@@ -1,13 +1,7 @@
 package com.andres.curso.springboot.app.springbootcrud.entities;
 
-import com.andres.curso.springboot.app.springbootcrud.validation.IsExistsDb;
-import com.andres.curso.springboot.app.springbootcrud.validation.IsRequired;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
@@ -16,7 +10,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.List;
-import java.util.Set;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -24,6 +17,7 @@ import java.util.Set;
 @Getter
 @Entity
 @Table(name="products")
+@JsonIgnoreProperties({"carritos"})  // Ignorar la relación con Carrito
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -50,7 +44,10 @@ public class Product {
     //@IsRequired
     private String description;
 
+    private Integer quantity;
 
 
-    
+    @ManyToMany(mappedBy = "products")
+    private List<Carrito> carritos;
+
 }
