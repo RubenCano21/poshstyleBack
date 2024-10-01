@@ -2,6 +2,7 @@ D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbo
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\services\UserService.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\services\UserServiceImpl.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\controllers\ProductController.java
+D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\dto\AgregarProductRequest.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\SpringbootCrudApplication.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\entities\User.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\validation\ExistsByUsername.java
@@ -9,12 +10,15 @@ D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbo
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\services\JpaUserDetailsService.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\validation\RequiredValidation.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\validation\IsExistsDb.java
+D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\entities\Carrito.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\AppConfig.java
+D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\repositories\CarritoRepository.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\repositories\RoleRepository.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\security\TokenJwtConfig.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\controllers\UserController.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\security\SimpleGrantedAuthorityJsonCreator.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\ProductValidation.java
+D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\services\CarritoService.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\validation\IsRequired.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\security\filter\JwtValidationFilter.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\entities\Product.java
@@ -23,6 +27,8 @@ D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbo
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\services\ProductServiceImpl.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\entities\Role.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\validation\IsExistsDbValidation.java
+D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\controllers\CarritoController.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\services\AuthService.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\repositories\ProductRepository.java
+D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\services\CarritoServiceImpl.java
 D:\Oracle\springboot-crud\src\main\java\com\andres\curso\springboot\app\springbootcrud\validation\ExistsByUsernameValidation.java

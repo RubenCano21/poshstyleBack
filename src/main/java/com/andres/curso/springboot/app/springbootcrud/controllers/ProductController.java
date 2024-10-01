@@ -23,7 +23,7 @@ import com.andres.curso.springboot.app.springbootcrud.services.ProductService;
 import jakarta.validation.Valid;
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200", originPatterns = "*")
+@CrossOrigin(origins="http://examen-react.s3-website.us-east-2.amazonaws.com", originPatterns = "*")
 @RequestMapping("/api/products")
 public class ProductController {
     

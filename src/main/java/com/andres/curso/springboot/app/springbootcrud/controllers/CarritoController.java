@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
-@CrossOrigin(origins="http://localhost:3000", originPatterns = "*")
+@CrossOrigin(origins="http://examen-react.s3-website.us-east-2.amazonaws.com", originPatterns = "*")
 @RestController
 @RequestMapping("/api/carrito")
 public class CarritoController {

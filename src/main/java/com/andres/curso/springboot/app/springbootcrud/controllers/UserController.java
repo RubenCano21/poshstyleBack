@@ -21,7 +21,7 @@ import com.andres.curso.springboot.app.springbootcrud.services.UserService;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin(origins="http://localhost:3000", originPatterns = "*")
+@CrossOrigin(origins="http://examen-react.s3-website.us-east-2.amazonaws.com", originPatterns = "*")
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
